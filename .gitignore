@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.gitignore
+.idea
 
 ### Eclipse ###
 .apt_generated
