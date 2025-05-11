@@ -10,7 +10,6 @@ public class MainProblem2 {
 
     public static boolean test(String s) {
         Stack<Character> stack = new Stack<>();
-
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
                 stack.add(s.charAt(i));
