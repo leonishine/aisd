@@ -22,6 +22,7 @@ public class Main {
                             sc.nextInt(),
                             sc.nextInt()
                     ));
+
                 }
 
                 List<Edge> result = Kruskal.kruskal(edges,v);
